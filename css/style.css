@@ -160,7 +160,6 @@ body {
 /*region hero*/
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero.jpg");
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -224,13 +223,12 @@ body {
 }
 
 .advantages-icon {
-    display: block;
-    margin: 0 auto 8px auto;
-    padding: 24px 100px;
-    background-color: var(--cloud);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
     border-radius: 4px;
-    border: 1px solid var(--light-slate);
-
 }
 
 .advantages-icon svg {
