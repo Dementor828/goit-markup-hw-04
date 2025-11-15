@@ -436,7 +436,7 @@ body {
     padding: 100px 0;
 }
 
-.footer-content-wrapper {
+.page-footer .container {
     display: flex;
     align-items: baseline;
 }
